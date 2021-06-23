@@ -1,15 +1,18 @@
 #include "holberton.h"
-
 /**
- * _islower - a function that checks for lowercase chatacter
- *
- * @c: is the int that will use for the argument of the function
- * Return: 1 if lowercase character 0 if not
+ * print_alphabet_x10 - Prints all alphabets 10 times
  */
-int _islower(int c)
+void print_alphabet_x10(void)
 {
-if (c >= 'a' && c <= 'z')
-return (1);
-else
-return (0);
+int i;
+char c;
+
+for (i = 0; i < 10; i++)
+{
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
+}
 }
