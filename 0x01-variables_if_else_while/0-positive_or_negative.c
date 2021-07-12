@@ -6,6 +6,7 @@
  * main - main block
  * Description: Get a random number and print the number
  * and if it is positive, negative or zero
+ *
  * return: 0 always (success)
  */
 
