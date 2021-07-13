@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-*main - entry code
+*main - Entry point
+*
 *return: 0 always (success)
 */
-
 int main(void)
 {
 	int i;
