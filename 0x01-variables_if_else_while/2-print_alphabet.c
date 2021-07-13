@@ -5,6 +5,7 @@
 *
 *return: 0 always (success)
 */
+
 int main(void)
 {
 	int i;
@@ -14,5 +15,4 @@ int main(void)
 		putchar(i);
 	}
 	putchar(10);
-	return (0);
 }
