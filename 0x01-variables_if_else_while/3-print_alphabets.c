@@ -2,7 +2,6 @@
 
 /**
 *main - Entry point
-*
 *return: 0 always (success)
 */
 
